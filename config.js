@@ -24,7 +24,7 @@ global.mods = []
 global.prems = []
 
 // Cambiar a false para usar el Bot desde el mismo numero del Bot.
-global.isBaileysFail = true
+global.isBaileysFail = false
 
 // ❰❰ methodCode ❱❱
 // [ES] > Agregue el número del Bot en "botNumberCode" si desea recibir código de 8 dígitos sin registrar el número en la consola.
@@ -37,7 +37,7 @@ global.confirmCode = "" // No tocar esto : Do not touch this line
 //  es = Español      id = Bahasa Indonesia       ar = عرب
 //  en = English      pt = Português              de = Deutsch
 //  it = Italiano
-global.lenguajeGB = es  //<-- Predeterminado en idioma Español 
+global.lenguajeGB = it  //<-- Predeterminado en idioma Español 
 
 // ES ➜ Consigue Apikey en https://platform.openai.com/account/api-keys
 global.openai_key = 'sk-0'
@@ -93,8 +93,8 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.author = 'Pablo 𝘿𝙞𝙤𝙨'
 global.policyGB = 'github.com/GataNina-Li/GataBot-MD/blob/master/terms.md'
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
@@ -108,7 +108,7 @@ global.official = [
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
-global.country = '' //agrega tú país ejemplo: 🇪🇨
+global.country = '' //agrega tú país ejemplo: 🇻🇪
 
 global.vs = '1.4.0'
 global.vsJB = '5.0'
